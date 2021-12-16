@@ -13,7 +13,6 @@
 		13D721140DBF97030D4F6616EF870978 /* QYIntroduce.h in Headers */ = {isa = PBXBuildFile; fileRef = EC753387F76A31E3F85D151CD89A86DB /* QYIntroduce.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		19EA6FA1ECB1FD2B8A2B586539D1CA23 /* QYSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD293588E499DB94D87A224172636CB /* QYSettingCell.m */; };
 		1E79A2826581B1345F2F9529A9689A6E /* QYCommonSettingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE585F3399BDBD3DD3C13A29881A53D /* QYCommonSettingViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FE5308347FFAD9013A75A3D6743D874 /* QYSettingType.h in Headers */ = {isa = PBXBuildFile; fileRef = D3DE8E990121F3AD56F8C90428A1B18C /* QYSettingType.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2D305442B80254BF1460EDBE686B20F0 /* QYSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 27BF388946702CB434D8CE640569D1EF /* QYSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3B04713A113C183B5BD2FAAEEC9AF3EF /* QYCommonSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = E9143D84683EA8BA03BDB71BF54E9C9F /* QYCommonSetting.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DC4A8FA31C1C133598057C2151C2885 /* QYIntroduce.m in Sources */ = {isa = PBXBuildFile; fileRef = 9586596B718344415094BF74BE50BB58 /* QYIntroduce.m */; };
@@ -38,6 +37,7 @@
 		CA78C69111F7BA52DCA12499A9F1BA30 /* QYIntroduceViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D371D9296C11D8070AB03C094EA8D82 /* QYIntroduceViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDA04A76DFAA33FA2B66F3876D89671C /* QYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E8BD27C46BAE232AEBD426C84DC5A /* QYUtils.m */; };
 		CFFBBC313ACEE784203048C766027169 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E5D5030A276B3A9900B33B54 /* QYSettingType.h in Headers */ = {isa = PBXBuildFile; fileRef = E5D50309276B3A9900B33B54 /* QYSettingType.h */; };
 		E7A7E27B0B341F8B0A4BB8AF52942B73 /* CommonSetting-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2210C9A661B10C426E541A36F40282 /* CommonSetting-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF74F83219BC4D666910939F8690536A /* CommonSetting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B116E70BEA9EBECDBC2B9DF30BBF052F /* CommonSetting-dummy.m */; };
 		F35D4994AE57E75ABF1DBF2DAC086275 /* Pods-CommonSetting_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37D8F3B36EE08EFFC11FF550696410F4 /* Pods-CommonSetting_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -69,7 +69,7 @@
 		23223213D81E021782BF08E21A8FF674 /* QYBaseSettingViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYBaseSettingViewController.m; sourceTree = "<group>"; };
 		27BF388946702CB434D8CE640569D1EF /* QYSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYSettings.h; sourceTree = "<group>"; };
 		2B89FA27110B896F94EB7E33E67268EB /* QYIntroduceCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYIntroduceCell.m; sourceTree = "<group>"; };
-		3079F7308E2C962DB1EF1C7E0317E083 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3079F7308E2C962DB1EF1C7E0317E083 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		30F406EAD5622402898C37B3BDB2245C /* Pods-CommonSetting_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CommonSetting_Tests"; path = Pods_CommonSetting_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		323467E7950AD163DB2CC6F51C5D15AF /* Pods-CommonSetting_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonSetting_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		32E43CC14006AF15CF39479B2C4DDEF0 /* QYAboutViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYAboutViewController.m; sourceTree = "<group>"; };
@@ -97,9 +97,9 @@
 		9AB22F3B343AC41A7ED29CB445B49D16 /* Pods-CommonSetting_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CommonSetting_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9AD293588E499DB94D87A224172636CB /* QYSettingCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYSettingCell.m; sourceTree = "<group>"; };
 		9B0C954001106870F6B970381FC74F0A /* QYSettings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYSettings.m; sourceTree = "<group>"; };
-		9CF7444E2F217B9E731E52233774B75B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9CF7444E2F217B9E731E52233774B75B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9D371D9296C11D8070AB03C094EA8D82 /* QYIntroduceViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYIntroduceViewController.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B083A964C1C120AC46FBC908CC407A39 /* Pods-CommonSetting_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CommonSetting_Tests.modulemap"; sourceTree = "<group>"; };
 		B09680BD19319AF74BA78002CB0AB4A6 /* QYIntroduceViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = QYIntroduceViewController.xib; sourceTree = "<group>"; };
 		B116E70BEA9EBECDBC2B9DF30BBF052F /* CommonSetting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CommonSetting-dummy.m"; sourceTree = "<group>"; };
@@ -111,10 +111,10 @@
 		C6539BCE30421573EBD4481FE53FAA7A /* CommonSetting-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CommonSetting-prefix.pch"; sourceTree = "<group>"; };
 		C79C0D1EE540A6774BD9F9CA486BF57D /* QYAboutViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = QYAboutViewController.xib; sourceTree = "<group>"; };
 		D2D45F60ABBB47320EB827E1CCEDE64B /* CommonSetting-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CommonSetting-Info.plist"; sourceTree = "<group>"; };
-		D3DE8E990121F3AD56F8C90428A1B18C /* QYSettingType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYSettingType.h; sourceTree = "<group>"; };
 		E0387B4739F1BAC41F4BEE4DD2C60E26 /* QYSettingCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = QYSettingCell.xib; sourceTree = "<group>"; };
 		E1FA0D5D5BE6F449DD6A3B7241E677FE /* Pods-CommonSetting_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonSetting_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E35432AAFDF3D10E127AA42EABA4C64F /* CommonSetting.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CommonSetting.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E35432AAFDF3D10E127AA42EABA4C64F /* CommonSetting.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CommonSetting.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E5D50309276B3A9900B33B54 /* QYSettingType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYSettingType.h; sourceTree = "<group>"; };
 		E9143D84683EA8BA03BDB71BF54E9C9F /* QYCommonSetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYCommonSetting.h; path = CommonSetting/Classes/QYCommonSetting.h; sourceTree = "<group>"; };
 		EC346DE0456C20C62D9723239E2AB9B2 /* CommonSetting */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CommonSetting; path = CommonSetting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC753387F76A31E3F85D151CD89A86DB /* QYIntroduce.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYIntroduce.h; sourceTree = "<group>"; };
@@ -174,7 +174,7 @@
 				B17F221C07BA1D493575E259BA4ADD12 /* QYSettingCell.h */,
 				9AD293588E499DB94D87A224172636CB /* QYSettingCell.m */,
 				E0387B4739F1BAC41F4BEE4DD2C60E26 /* QYSettingCell.xib */,
-				D3DE8E990121F3AD56F8C90428A1B18C /* QYSettingType.h */,
+				E5D50309276B3A9900B33B54 /* QYSettingType.h */,
 			);
 			name = Main;
 			path = CommonSetting/Classes/Main;
@@ -354,12 +354,12 @@
 				C2FA537F5277254A14A3C7A1A5D69E3F /* QYBaseSettingViewController.h in Headers */,
 				3B04713A113C183B5BD2FAAEEC9AF3EF /* QYCommonSetting.h in Headers */,
 				1E79A2826581B1345F2F9529A9689A6E /* QYCommonSettingViewController.h in Headers */,
+				E5D5030A276B3A9900B33B54 /* QYSettingType.h in Headers */,
 				13D721140DBF97030D4F6616EF870978 /* QYIntroduce.h in Headers */,
 				48BE7E6AABB9D218C195515FB8530E2F /* QYIntroduceCell.h in Headers */,
 				CA78C69111F7BA52DCA12499A9F1BA30 /* QYIntroduceViewController.h in Headers */,
 				C3DDE32E1C6A577D604EBA3AA6BA818F /* QYSettingCell.h in Headers */,
 				2D305442B80254BF1460EDBE686B20F0 /* QYSettings.h in Headers */,
-				1FE5308347FFAD9013A75A3D6743D874 /* QYSettingType.h in Headers */,
 				FA7AB5FF047F30FB0CCC49B86D03236A /* QYUtils.h in Headers */,
 				418D28AFDE1F30A9ED0DCB2ABBBC1A64 /* UIApplication+QYCategory.h in Headers */,
 			);
@@ -822,8 +822,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

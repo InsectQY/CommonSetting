@@ -12,3 +12,4 @@ typedef enum : NSUInteger {
     QYSettingTypeCleanCache = 5,
     QYSettingTypeIntroduce = 6,
 } QYSettingType;
+
