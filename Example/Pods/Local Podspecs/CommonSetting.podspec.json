@@ -1,0 +1,22 @@
+{
+  "name": "CommonSetting",
+  "version": "0.1.0",
+  "summary": "A short description of CommonSetting.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/InsectQY/CommonSetting",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "insect": "704861917@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/InsectQY/CommonSetting",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CommonSetting/Classes/**/*"
+}

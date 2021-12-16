@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'CommonSetting_Example' do
+  pod 'CommonSetting', :path => '../'
+
+  target 'CommonSetting_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,16 @@
+PODS:
+  - CommonSetting (0.1.0)
+
+DEPENDENCIES:
+  - CommonSetting (from `../`)
+
+EXTERNAL SOURCES:
+  CommonSetting:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CommonSetting: f1d92e7b75352a4c841d6113fc20890fd01a7162
+
+PODFILE CHECKSUM: df0059d9bb28549f4181ff6d93cb5074f4669265
+
+COCOAPODS: 1.11.2

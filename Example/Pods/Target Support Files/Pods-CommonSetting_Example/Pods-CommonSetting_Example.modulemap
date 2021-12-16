@@ -1,0 +1,6 @@
+framework module Pods_CommonSetting_Example {
+  umbrella header "Pods-CommonSetting_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
