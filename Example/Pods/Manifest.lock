@@ -1,13 +1,23 @@
 PODS:
-  - CommonSetting (0.1.0):
-    - CommonSetting/About (= 0.1.0)
-    - CommonSetting/Core (= 0.1.0)
-    - CommonSetting/Introduce (= 0.1.0)
-  - CommonSetting/About (0.1.0):
+  - CommonSetting (1.0.0):
+    - CommonSetting/About (= 1.0.0)
+    - CommonSetting/Core (= 1.0.0)
+    - CommonSetting/Introduce (= 1.0.0)
+    - CommonSetting/Main (= 1.0.0)
+    - CommonSetting/Resources (= 1.0.0)
+  - CommonSetting/About (1.0.0):
     - CommonSetting/Core
-  - CommonSetting/Core (0.1.0)
-  - CommonSetting/Introduce (0.1.0):
+    - CommonSetting/Resources
+  - CommonSetting/Core (1.0.0)
+  - CommonSetting/Introduce (1.0.0):
     - CommonSetting/Core
+    - CommonSetting/Resources
+  - CommonSetting/Main (1.0.0):
+    - CommonSetting/About
+    - CommonSetting/Core
+    - CommonSetting/Introduce
+    - CommonSetting/Resources
+  - CommonSetting/Resources (1.0.0)
 
 DEPENDENCIES:
   - CommonSetting (from `../`)
@@ -17,7 +27,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CommonSetting: 9774c4d14ce514ee7eb6413f337d35ab82874abb
+  CommonSetting: 4627ad79476e8b2fedf41090fee942f610f44131
 
 PODFILE CHECKSUM: df0059d9bb28549f4181ff6d93cb5074f4669265
 

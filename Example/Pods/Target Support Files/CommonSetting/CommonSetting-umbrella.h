@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "QYCommonSetting.h"
 #import "QYAboutViewController.h"
 #import "QYBaseSettingViewController.h"
 #import "QYIntroduce.h"
@@ -21,16 +22,6 @@
 #import "QYIntroduceViewController.h"
 #import "QYCommonSettingViewController.h"
 #import "QYSettingCell.h"
-#import "QYCommonSetting.h"
-#import "QYAboutViewController.h"
-#import "QYBaseSettingViewController.h"
-#import "QYIntroduce.h"
-#import "QYSettings.h"
-#import "QYSettingType.h"
-#import "QYUtils.h"
-#import "UIApplication+QYCategory.h"
-#import "QYIntroduceCell.h"
-#import "QYIntroduceViewController.h"
 
 FOUNDATION_EXPORT double CommonSettingVersionNumber;
 FOUNDATION_EXPORT const unsigned char CommonSettingVersionString[];

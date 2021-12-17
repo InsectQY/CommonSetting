@@ -17,8 +17,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (instancetype)initWithSettings:(QYSettings *)settings;
 
-
 - (void)makeUI;
+
 @end
 
 NS_ASSUME_NONNULL_END

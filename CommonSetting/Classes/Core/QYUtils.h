@@ -18,4 +18,6 @@
 
 + (NSString * _Nonnull)getTitleWithSettingType:(QYSettingType)type;
 
++ (NSBundle * _Nonnull)getBundle;
+
 @end

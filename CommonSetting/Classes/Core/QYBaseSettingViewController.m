@@ -12,7 +12,7 @@
 @implementation QYBaseSettingViewController
 
 - (instancetype)initWithSettings:(QYSettings *)settings {
-    self = [super initWithNibName:nil bundle:[NSBundle bundleForClass:[QYBaseSettingViewController class]]];
+    self = [super initWithNibName:nil bundle:[QYUtils getBundle]];
     if (self) {
         self.settings = settings;
     }
@@ -21,7 +21,7 @@
 }
 
 - (instancetype)init {
-    self = [super initWithNibName:nil bundle:[NSBundle bundleForClass:[QYBaseSettingViewController class]]];
+    self = [super initWithNibName:nil bundle:[QYUtils getBundle]];
     if (self) {
         self.settings = [QYUtils decodeSettings];
     }

@@ -9,6 +9,7 @@
 #import "QYIntroduceCell.h"
 #import "QYIntroduce.h"
 #import "QYSettings.h"
+#import "QYUtils.h"
 
 static NSString *const kReuseIdentifier = @"reuseIdentifier";
 
@@ -39,7 +40,7 @@ static NSString *const kReuseIdentifier = @"reuseIdentifier";
     }
     
     UINib *nib = [UINib nibWithNibName:@"QYIntroduceCell"
-                                bundle:[NSBundle bundleForClass:[QYIntroduceViewController class]]];
+                                bundle:[QYUtils getBundle]];
     [_collectionView registerNib:nib
       forCellWithReuseIdentifier:kReuseIdentifier];
     _collectionView.dataSource = self;

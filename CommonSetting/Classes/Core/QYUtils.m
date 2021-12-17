@@ -51,4 +51,11 @@
     }
 }
 
++ (NSBundle *)getBundle {
+    NSBundle *bundle = [NSBundle bundleForClass:[QYUtils class]];
+    NSURL *url = [bundle URLForResource:@"CommonSettingResources"
+                             withExtension:@"bundle"];
+    return [[NSBundle alloc]initWithURL:url];
+}
+
 @end

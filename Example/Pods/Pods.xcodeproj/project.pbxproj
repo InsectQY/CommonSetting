@@ -7,52 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		002A178C212A4A09DFC996CDCA81551D /* QYBaseSettingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CA02CC8FAB890096DB2F0176D26FFECA /* QYBaseSettingViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		029FA8EB2DA36A2B3FA6B7A4CFC6F78F /* QYIntroduceCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 688CDD497067D243386A3D53319395DC /* QYIntroduceCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		005302FF86313742865ED4F1F950B73B /* QYIntroduceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25A91C70198666F192F14DE02290C1F5 /* QYIntroduceCell.xib */; };
 		0587700547C7EEFACD88B4D2378DC420 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		05F24E11E9A3D9F9F5CD4B95FA5FD09B /* QYCommonSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D0C4E580309758A3231F8F26990997 /* QYCommonSettingViewController.m */; };
-		0C251C65F7045E3D2D2C813DB03DEC34 /* QYBaseSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 440D0508B0AF2DFF4F4A6898C2BF623A /* QYBaseSettingViewController.m */; };
-		19EA6FA1ECB1FD2B8A2B586539D1CA23 /* QYSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D6B252FA6A643CF449E6B0BEA5B79A /* QYSettingCell.m */; };
-		26E81D45928C7CB0B81FDD78AA5A7E9E /* QYAboutViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 97C57E5E42747960D347129431CDC9EA /* QYAboutViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		327FE530D4D529993BC50A4620C63D64 /* QYCommonSettingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FECE3DF3EE9E9260ABE7F41B2178C5D /* QYCommonSettingViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3DC4A8FA31C1C133598057C2151C2885 /* QYIntroduce.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DBBB73550447030E344EB14F20FD43 /* QYIntroduce.m */; };
-		4528F278AF9F5FFDCC556D1ABBBFDCAA /* QYIntroduceViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = DD81DC49C4867ED0D8A5237ABF7B31B6 /* QYIntroduceViewController.xib */; };
-		46AE06AE3A875395E717CF0391861395 /* QYAboutViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 3A032D31DA4BC66B326270A2A0FDE869 /* QYAboutViewController.xib */; };
+		18BBC4EE2AD977BB05839C259300218F /* QYSettingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 710DAAB323AD633CED63BAD74DFBCE8E /* QYSettingCell.xib */; };
+		1E9C272E98CC656317994BF636498F8D /* QYSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA0E049A1C7AB2048AFDEABB778CBBC /* QYSettingCell.m */; };
+		2D3D7CCEE069F5BE28DA1BFCFF41F3F9 /* QYAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33FBFBCCE09B68910718335CEA6C8615 /* QYAboutViewController.m */; };
+		2D41FAD6DB41A5643EADF3D805E38EAA /* QYCommonSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D48599E38AFC9F134360EE3EC336E837 /* QYCommonSettingViewController.m */; };
+		3C3C9203B1B22E470A0C8306FC90C39C /* QYIntroduce.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C4E571E860698294D1AC8234447534 /* QYIntroduce.m */; };
+		4768509B0B8F203823088CBDD01245C9 /* QYSettingType.h in Headers */ = {isa = PBXBuildFile; fileRef = AD20D7F4637496954574B12EBFFB805D /* QYSettingType.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		481F3CE6A82970AB4BCF8C19ED3BB755 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		4A8EC5E0CD74973819F9C089772D9173 /* Pods-CommonSetting_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 698B81EDFD288C947054FA4C73692077 /* Pods-CommonSetting_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BF71BB225FA178AE44B2BD2E34E57D7 /* QYSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB53CE85D0D1277DD80C947C385807B /* QYSettings.m */; };
-		4D108D7CA23452C0B661B8EBA4E125F6 /* CommonSetting-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AD1ADBB4E26743224D252BB6D76EDE0 /* CommonSetting-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5259678C9BDDB5C4027CA02F9A443B90 /* QYIntroduceViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C2465BA4685810ADE39A05A8177C3902 /* QYIntroduceViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		660EE17B2B6EF17896D187947BCD5D20 /* QYCommonSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B55C0F8C0DC1680263EF1826CD4E810 /* QYCommonSetting.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		701257E6492EBC54D61F2F5F342F073C /* QYIntroduce.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DAFD1C178667BA46BBEDDE440EC225A /* QYIntroduce.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		738A894CF914637425E688C84C0932DA /* UIApplication+QYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7365E946567FFE90D11385A368D0B229 /* UIApplication+QYCategory.m */; };
+		52E16DF6255FA4A267811040EEDD2A42 /* CommonSetting-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFCE5CC313080B490BBBCF74E443069C /* CommonSetting-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EC04F663B0ADFF80F983ADDEB08C701 /* QYIntroduceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2B87F1523B9532BFACC8E99D525C6B /* QYIntroduceViewController.m */; };
+		65ED1AA411DA9A090C8322036CBFF8FA /* QYCommonSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = 985B4CBC1172D51F921DD24DFD4E5FAC /* QYCommonSetting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A6CBDC9DA3AC937DA584E14B299301B /* QYIntroduceViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FA82ECBB5BE294992EDB7A6FE7116055 /* QYIntroduceViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BC7F3C5EE0FB79F1831EAD5E1EF0277 /* QYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A5DE3EA4D59369C747B4E06433FEEB /* QYUtils.m */; };
+		70EC4A3605654E0A2B3B2DCCE050B788 /* QYAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2128A0C74C980C173718F0B23F854703 /* QYAboutViewController.xib */; };
 		746EE8FCAC18D5C37A1F20B919F8B390 /* Pods-CommonSetting_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAF18C8682AB3DF01AEB864558CD1DA /* Pods-CommonSetting_Tests-dummy.m */; };
-		856F8D7FE2F7D86837407546E35F586A /* QYSettingCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C684863F2D39CDFA6DA478920F088519 /* QYSettingCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8778BD3AFBA7354B4EAD3A1299A5046C /* QYIntroduceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE3DE6FFE83F8E7E706277C32E86DC0 /* QYIntroduceCell.m */; };
-		8F584F87EA8AB819D00844CCA9415863 /* UIApplication+QYCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 79AB549554A8561B92C2EC616A075989 /* UIApplication+QYCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		96BB5ECCA3492D43E0655F66FAC9C648 /* QYUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 63CDE6D2602FCB05AE337E6AC09C924E /* QYUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E94E6CFD85D2C1509DF87DA6ED4B955 /* UIApplication+QYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E1126FAC8F68B46CF2B6A6984A2C6C45 /* UIApplication+QYCategory.m */; };
+		9B727398D6B6F69D07EE8A14D1EB6ACB /* QYUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = BC786C262F2F6DB2F414AA5665FCDA6F /* QYUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D0EDA359548ACA0F61821482FFDB51F /* QYIntroduce.h in Headers */ = {isa = PBXBuildFile; fileRef = 5211A9290EEA10D55BD2CFCD1EAD5B9C /* QYIntroduce.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9DB69CBE53D3E7084C66AD7BFC76DE8B /* Pods-CommonSetting_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5424226935AD0970471BC0920B26DFFA /* Pods-CommonSetting_Example-dummy.m */; };
-		A3C435BFA22A45B9EE4C0926E70FB509 /* QYIntroduceCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 5F6CA768A7A3E9D4ACFDB9DD8021BE9E /* QYIntroduceCell.xib */; };
-		A7E52A849BC327B20AD2174E887604E0 /* QYAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F4252E97AB6525836A0ED32D85D8EA /* QYAboutViewController.m */; };
-		AF2D30425875C71738F14E27A85221D9 /* QYIntroduceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB015E1B05D39180F6358AA918C234C /* QYIntroduceViewController.m */; };
-		BF702D396726AA60F92C92A43F91D75E /* QYSettingCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 4F3DB5DF56FB2188A2801AC85EBCD9FE /* QYSettingCell.xib */; };
-		C966399E73DAF14CE220A33D14A92742 /* QYSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FF5292EBD3E65B4EB8C14886E5DA560 /* QYSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CDA04A76DFAA33FA2B66F3876D89671C /* QYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4D40CC01AF60740D768A49FB3AAB95 /* QYUtils.m */; };
-		CFFBBC313ACEE784203048C766027169 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		EA45E4A6CA6FC28079A25C4AEB196390 /* QYSettingType.h in Headers */ = {isa = PBXBuildFile; fileRef = 97C85F984182D7827A6FFCE8D51103DE /* QYSettingType.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF74F83219BC4D666910939F8690536A /* CommonSetting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B297C46EBAC2280D28876574DB25EF4B /* CommonSetting-dummy.m */; };
+		AFC80D3C3E61EF6F5BE0B81FFB1E1C30 /* UIApplication+QYCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 39FE8B50E698FB43CB1632F008820693 /* UIApplication+QYCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7D24962CD3788977B531FA8373E04EF /* QYIntroduceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 724308C2F74E3F905F087EA0D69FF857 /* QYIntroduceViewController.xib */; };
+		B8901EC29501CFB230A5F13E81FF956E /* QYCommonSettingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F67BADF06B99B0AD74FFE61742992E06 /* QYCommonSettingViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE000344CD697948F3A3F44A0D0C4756 /* CommonSetting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9E4CE0B7D43ADE6E56F92BDCAC80FA /* CommonSetting-dummy.m */; };
+		C91A85B53AAAC39CDB81A63D0AB38F8D /* QYBaseSettingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D858633ECF9B6541B523716E7EC414 /* QYBaseSettingViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA8888D37125C30679ECE0F658E5EFFC /* CommonSetting-CommonSettingResources in Resources */ = {isa = PBXBuildFile; fileRef = 365231572837D11BC6FAAFE5A7018CDD /* CommonSetting-CommonSettingResources */; };
+		D797738F90C04C63D08E813A0538695F /* QYAboutViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D772D5A23DE46F54A61B1C472DC480CD /* QYAboutViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DADBBE4D6F8947BEE796E7CB62831093 /* QYIntroduceCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 30522E441FD9A1A35DAD4D0C2EEA6EA1 /* QYIntroduceCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD3BEBBCD55726F2CD17E1F294505592 /* QYSettingCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F009CF53CF498942F56EA6861B2916E /* QYSettingCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDDDEF73F81D9495FA93B0384F890996 /* QYSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 09B107CB838557010E103DB5DD997235 /* QYSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAB288C9B7AFFF5627454450C78C4490 /* QYIntroduceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 376616F081E61864C99A365218FC2E7A /* QYIntroduceCell.m */; };
+		EDCB8AC7B4B79E256CBA91C2D7AC1EB2 /* QYBaseSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92C11214869AD21498463BE73924E1A /* QYBaseSettingViewController.m */; };
+		EFE9345852863072F41CB3D32FCD0D8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		F35D4994AE57E75ABF1DBF2DAC086275 /* Pods-CommonSetting_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37D8F3B36EE08EFFC11FF550696410F4 /* Pods-CommonSetting_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8F7E4C78A2A5B16ADAB019690BC246F /* QYSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DDCBD124A7A51751A670F0786306FB /* QYSettings.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5875B3660ED5D29D516652EBA3C5F7B7 /* PBXContainerItemProxy */ = {
+		3E05F9F3E05394CF3B6BD8534CC92433 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17A489311C2307310BB8DE61B14D345B;
+			remoteInfo = "CommonSetting-CommonSettingResources";
+		};
+		51804526856010380FFB39AB5F730C9F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 99C1EB3095DF48BBD73B74A46057B324;
 			remoteInfo = CommonSetting;
 		};
-		6AFFD3C99D2CF4225BB99E462928DE6C /* PBXContainerItemProxy */ = {
+		FA1BB0301B97BCD395E1CE1A8DB2373B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -62,63 +70,65 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		16F4252E97AB6525836A0ED32D85D8EA /* QYAboutViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYAboutViewController.m; sourceTree = "<group>"; };
-		1BE3DE6FFE83F8E7E706277C32E86DC0 /* QYIntroduceCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYIntroduceCell.m; sourceTree = "<group>"; };
-		22DBBB73550447030E344EB14F20FD43 /* QYIntroduce.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYIntroduce.m; sourceTree = "<group>"; };
-		2B55C0F8C0DC1680263EF1826CD4E810 /* QYCommonSetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYCommonSetting.h; path = CommonSetting/Classes/QYCommonSetting.h; sourceTree = "<group>"; };
+		01D3C724078A824A576FAE80B1260423 /* CommonSetting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CommonSetting.release.xcconfig; sourceTree = "<group>"; };
+		09B107CB838557010E103DB5DD997235 /* QYSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYSettings.h; path = CommonSetting/Classes/Core/QYSettings.h; sourceTree = "<group>"; };
+		10A5DE3EA4D59369C747B4E06433FEEB /* QYUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QYUtils.m; path = CommonSetting/Classes/Core/QYUtils.m; sourceTree = "<group>"; };
+		15C4E571E860698294D1AC8234447534 /* QYIntroduce.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QYIntroduce.m; path = CommonSetting/Classes/Core/QYIntroduce.m; sourceTree = "<group>"; };
+		2128A0C74C980C173718F0B23F854703 /* QYAboutViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = QYAboutViewController.xib; path = CommonSetting/Resources/QYAboutViewController.xib; sourceTree = "<group>"; };
+		25A91C70198666F192F14DE02290C1F5 /* QYIntroduceCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = QYIntroduceCell.xib; path = CommonSetting/Resources/QYIntroduceCell.xib; sourceTree = "<group>"; };
+		2A3486747E540DF1C500131E5E45666B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2F009CF53CF498942F56EA6861B2916E /* QYSettingCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYSettingCell.h; path = CommonSetting/Classes/Main/QYSettingCell.h; sourceTree = "<group>"; };
+		30522E441FD9A1A35DAD4D0C2EEA6EA1 /* QYIntroduceCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYIntroduceCell.h; path = CommonSetting/Classes/Introduce/QYIntroduceCell.h; sourceTree = "<group>"; };
 		30F406EAD5622402898C37B3BDB2245C /* Pods-CommonSetting_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CommonSetting_Tests"; path = Pods_CommonSetting_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		323467E7950AD163DB2CC6F51C5D15AF /* Pods-CommonSetting_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonSetting_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		33FBFBCCE09B68910718335CEA6C8615 /* QYAboutViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QYAboutViewController.m; path = CommonSetting/Classes/About/QYAboutViewController.m; sourceTree = "<group>"; };
 		34047A50C1383CB158923A3C8437381E /* Pods-CommonSetting_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CommonSetting_Example"; path = Pods_CommonSetting_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		365231572837D11BC6FAAFE5A7018CDD /* CommonSetting-CommonSettingResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "CommonSetting-CommonSettingResources"; path = CommonSettingResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		376616F081E61864C99A365218FC2E7A /* QYIntroduceCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QYIntroduceCell.m; path = CommonSetting/Classes/Introduce/QYIntroduceCell.m; sourceTree = "<group>"; };
 		37D8F3B36EE08EFFC11FF550696410F4 /* Pods-CommonSetting_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CommonSetting_Tests-umbrella.h"; sourceTree = "<group>"; };
-		3A032D31DA4BC66B326270A2A0FDE869 /* QYAboutViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = QYAboutViewController.xib; sourceTree = "<group>"; };
-		3AD1ADBB4E26743224D252BB6D76EDE0 /* CommonSetting-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CommonSetting-umbrella.h"; sourceTree = "<group>"; };
-		3BB015E1B05D39180F6358AA918C234C /* QYIntroduceViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYIntroduceViewController.m; sourceTree = "<group>"; };
-		440D0508B0AF2DFF4F4A6898C2BF623A /* QYBaseSettingViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYBaseSettingViewController.m; sourceTree = "<group>"; };
+		39FE8B50E698FB43CB1632F008820693 /* UIApplication+QYCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+QYCategory.h"; path = "CommonSetting/Classes/Core/UIApplication+QYCategory.h"; sourceTree = "<group>"; };
+		3E9E4CE0B7D43ADE6E56F92BDCAC80FA /* CommonSetting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CommonSetting-dummy.m"; sourceTree = "<group>"; };
+		40FBDE55C697783F79C7CF4358790F3A /* CommonSetting.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CommonSetting.modulemap; sourceTree = "<group>"; };
 		47F2FA789804384D8776D6DAE7A13E6F /* Pods-CommonSetting_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonSetting_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		48E5EDE4A4E2093583EA147AFB530108 /* CommonSetting.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CommonSetting.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		4F3DB5DF56FB2188A2801AC85EBCD9FE /* QYSettingCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = QYSettingCell.xib; sourceTree = "<group>"; };
-		5181CC35D12636A01A31930A9F53663C /* CommonSetting-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CommonSetting-Info.plist"; sourceTree = "<group>"; };
+		5211A9290EEA10D55BD2CFCD1EAD5B9C /* QYIntroduce.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYIntroduce.h; path = CommonSetting/Classes/Core/QYIntroduce.h; sourceTree = "<group>"; };
 		52902AC98B599EC6A01423306EF04818 /* Pods-CommonSetting_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonSetting_Example-Info.plist"; sourceTree = "<group>"; };
-		540AE5E30AD94967C50691C9C0BD1288 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		5424226935AD0970471BC0920B26DFFA /* Pods-CommonSetting_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CommonSetting_Example-dummy.m"; sourceTree = "<group>"; };
-		55EB6566012032B377C1B42EE186BFB3 /* CommonSetting-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CommonSetting-prefix.pch"; sourceTree = "<group>"; };
 		596BE188E5DE086DD571C886E867CEFB /* Pods-CommonSetting_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonSetting_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5C4D40CC01AF60740D768A49FB3AAB95 /* QYUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYUtils.m; sourceTree = "<group>"; };
-		5F6CA768A7A3E9D4ACFDB9DD8021BE9E /* QYIntroduceCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = QYIntroduceCell.xib; sourceTree = "<group>"; };
-		5FF5292EBD3E65B4EB8C14886E5DA560 /* QYSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYSettings.h; sourceTree = "<group>"; };
+		5CFC24CC7C67BC1DA7D44CF07B787F5E /* CommonSetting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CommonSetting.debug.xcconfig; sourceTree = "<group>"; };
 		61AD801B6095B5ABA02A6E026C567199 /* Pods-CommonSetting_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CommonSetting_Example.modulemap"; sourceTree = "<group>"; };
-		63CDE6D2602FCB05AE337E6AC09C924E /* QYUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYUtils.h; sourceTree = "<group>"; };
 		688CA1846D4A177CB36EC198AF15700C /* Pods-CommonSetting_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonSetting_Tests-Info.plist"; sourceTree = "<group>"; };
-		688CDD497067D243386A3D53319395DC /* QYIntroduceCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYIntroduceCell.h; sourceTree = "<group>"; };
 		698B81EDFD288C947054FA4C73692077 /* Pods-CommonSetting_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CommonSetting_Example-umbrella.h"; sourceTree = "<group>"; };
+		6AA0E049A1C7AB2048AFDEABB778CBBC /* QYSettingCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QYSettingCell.m; path = CommonSetting/Classes/Main/QYSettingCell.m; sourceTree = "<group>"; };
+		6C2B87F1523B9532BFACC8E99D525C6B /* QYIntroduceViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QYIntroduceViewController.m; path = CommonSetting/Classes/Introduce/QYIntroduceViewController.m; sourceTree = "<group>"; };
 		6C4A027AECC132D8CFA4318285BF46F9 /* Pods-CommonSetting_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonSetting_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6D6D2B452F9B96105F53347435223192 /* Pods-CommonSetting_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonSetting_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		71C699F476D5C450CF788623307FBD5F /* CommonSetting.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CommonSetting.modulemap; sourceTree = "<group>"; };
+		710DAAB323AD633CED63BAD74DFBCE8E /* QYSettingCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = QYSettingCell.xib; path = CommonSetting/Resources/QYSettingCell.xib; sourceTree = "<group>"; };
+		724308C2F74E3F905F087EA0D69FF857 /* QYIntroduceViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = QYIntroduceViewController.xib; path = CommonSetting/Resources/QYIntroduceViewController.xib; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7365E946567FFE90D11385A368D0B229 /* UIApplication+QYCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+QYCategory.m"; sourceTree = "<group>"; };
 		73F0DB6777C5CDF716904A22B4D90D55 /* Pods-CommonSetting_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CommonSetting_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		79AB549554A8561B92C2EC616A075989 /* UIApplication+QYCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIApplication+QYCategory.h"; sourceTree = "<group>"; };
-		7DAFD1C178667BA46BBEDDE440EC225A /* QYIntroduce.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYIntroduce.h; sourceTree = "<group>"; };
-		8FECE3DF3EE9E9260ABE7F41B2178C5D /* QYCommonSettingViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYCommonSettingViewController.h; sourceTree = "<group>"; };
-		97C57E5E42747960D347129431CDC9EA /* QYAboutViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYAboutViewController.h; sourceTree = "<group>"; };
-		97C85F984182D7827A6FFCE8D51103DE /* QYSettingType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYSettingType.h; sourceTree = "<group>"; };
+		7679BDA30961FEB5B3730D1EB17D34B2 /* ResourceBundle-CommonSettingResources-CommonSetting-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CommonSettingResources-CommonSetting-Info.plist"; sourceTree = "<group>"; };
+		8F9B0AB694ADBBF0D8362C22813CDEC4 /* CommonSetting-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CommonSetting-prefix.pch"; sourceTree = "<group>"; };
+		93D858633ECF9B6541B523716E7EC414 /* QYBaseSettingViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYBaseSettingViewController.h; path = CommonSetting/Classes/Core/QYBaseSettingViewController.h; sourceTree = "<group>"; };
+		985B4CBC1172D51F921DD24DFD4E5FAC /* QYCommonSetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYCommonSetting.h; path = CommonSetting/Classes/QYCommonSetting.h; sourceTree = "<group>"; };
+		98C8F985304D84496639570C230CBB29 /* CommonSetting.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CommonSetting.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98DDCBD124A7A51751A670F0786306FB /* QYSettings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QYSettings.m; path = CommonSetting/Classes/Core/QYSettings.m; sourceTree = "<group>"; };
 		9AB22F3B343AC41A7ED29CB445B49D16 /* Pods-CommonSetting_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CommonSetting_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FB53CE85D0D1277DD80C947C385807B /* QYSettings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYSettings.m; sourceTree = "<group>"; };
-		A5D6B252FA6A643CF449E6B0BEA5B79A /* QYSettingCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYSettingCell.m; sourceTree = "<group>"; };
-		A8B7B974E310E7679651ED6E1BD140A7 /* CommonSetting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CommonSetting.debug.xcconfig; sourceTree = "<group>"; };
+		ABA060F7FEC2984DB7F6C158CE5EB050 /* CommonSetting-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CommonSetting-Info.plist"; sourceTree = "<group>"; };
+		AD20D7F4637496954574B12EBFFB805D /* QYSettingType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYSettingType.h; path = CommonSetting/Classes/Core/QYSettingType.h; sourceTree = "<group>"; };
 		B083A964C1C120AC46FBC908CC407A39 /* Pods-CommonSetting_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CommonSetting_Tests.modulemap"; sourceTree = "<group>"; };
-		B15BA7FB4E5A990F9022547928C4BCA4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B1E5E2FE573134696366016D25F0CC99 /* Pods-CommonSetting_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CommonSetting_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B297C46EBAC2280D28876574DB25EF4B /* CommonSetting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CommonSetting-dummy.m"; sourceTree = "<group>"; };
-		C2465BA4685810ADE39A05A8177C3902 /* QYIntroduceViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYIntroduceViewController.h; sourceTree = "<group>"; };
-		C684863F2D39CDFA6DA478920F088519 /* QYSettingCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYSettingCell.h; sourceTree = "<group>"; };
-		CA02CC8FAB890096DB2F0176D26FFECA /* QYBaseSettingViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYBaseSettingViewController.h; sourceTree = "<group>"; };
-		DD81DC49C4867ED0D8A5237ABF7B31B6 /* QYIntroduceViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = QYIntroduceViewController.xib; sourceTree = "<group>"; };
+		BC786C262F2F6DB2F414AA5665FCDA6F /* QYUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYUtils.h; path = CommonSetting/Classes/Core/QYUtils.h; sourceTree = "<group>"; };
+		BFCE5CC313080B490BBBCF74E443069C /* CommonSetting-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CommonSetting-umbrella.h"; sourceTree = "<group>"; };
+		C1825E0DAA0F3BF6357CDFE59900C6A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D48599E38AFC9F134360EE3EC336E837 /* QYCommonSettingViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QYCommonSettingViewController.m; path = CommonSetting/Classes/Main/QYCommonSettingViewController.m; sourceTree = "<group>"; };
+		D772D5A23DE46F54A61B1C472DC480CD /* QYAboutViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYAboutViewController.h; path = CommonSetting/Classes/About/QYAboutViewController.h; sourceTree = "<group>"; };
+		D92C11214869AD21498463BE73924E1A /* QYBaseSettingViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QYBaseSettingViewController.m; path = CommonSetting/Classes/Core/QYBaseSettingViewController.m; sourceTree = "<group>"; };
+		E1126FAC8F68B46CF2B6A6984A2C6C45 /* UIApplication+QYCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+QYCategory.m"; path = "CommonSetting/Classes/Core/UIApplication+QYCategory.m"; sourceTree = "<group>"; };
 		E1FA0D5D5BE6F449DD6A3B7241E677FE /* Pods-CommonSetting_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonSetting_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EC346DE0456C20C62D9723239E2AB9B2 /* CommonSetting */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CommonSetting; path = CommonSetting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1D0C4E580309758A3231F8F26990997 /* QYCommonSettingViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYCommonSettingViewController.m; sourceTree = "<group>"; };
-		F30129337A6B6362868A6408DBFAF79E /* CommonSetting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CommonSetting.release.xcconfig; sourceTree = "<group>"; };
+		F67BADF06B99B0AD74FFE61742992E06 /* QYCommonSettingViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYCommonSettingViewController.h; path = CommonSetting/Classes/Main/QYCommonSettingViewController.h; sourceTree = "<group>"; };
+		FA82ECBB5BE294992EDB7A6FE7116055 /* QYIntroduceViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYIntroduceViewController.h; path = CommonSetting/Classes/Introduce/QYIntroduceViewController.h; sourceTree = "<group>"; };
 		FAAF18C8682AB3DF01AEB864558CD1DA /* Pods-CommonSetting_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CommonSetting_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -131,6 +141,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		459C74A748EA644E73898D3FC7A6848E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE9345852863072F41CB3D32FCD0D8C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		68CB7A4B5F593AE82CEC45233A58E3BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -139,11 +157,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A901B8000D8AA32AED250E5AD3C2E4A /* Frameworks */ = {
+		7804C643089C395B3549CF1076272440 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFFBBC313ACEE784203048C766027169 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,64 +183,64 @@
 			path = "Target Support Files/Pods-CommonSetting_Tests";
 			sourceTree = "<group>";
 		};
-		0CE31F6045112CD4D70A5C9C8380ACE7 /* CommonSetting */ = {
+		0BC2EFBC554E358DD61BED1BDCC18B07 /* Introduce */ = {
 			isa = PBXGroup;
 			children = (
-				2B55C0F8C0DC1680263EF1826CD4E810 /* QYCommonSetting.h */,
-				43B87776369DDCA459408166E3F8551D /* About */,
-				549700A7D7FD8736D1F3E1F21B5E0DA1 /* Core */,
-				58B1F071D078DE7236EBF7F86D23CB14 /* Introduce */,
-				9325F912423792F40F5789A3189920DA /* Main */,
-				9522977B70129A280260CA876BAB5F58 /* Pod */,
-				14C7A0840AEB9AC4D1C27AAF9F4573A5 /* Support Files */,
+				30522E441FD9A1A35DAD4D0C2EEA6EA1 /* QYIntroduceCell.h */,
+				376616F081E61864C99A365218FC2E7A /* QYIntroduceCell.m */,
+				FA82ECBB5BE294992EDB7A6FE7116055 /* QYIntroduceViewController.h */,
+				6C2B87F1523B9532BFACC8E99D525C6B /* QYIntroduceViewController.m */,
 			);
-			name = CommonSetting;
-			path = ../..;
+			name = Introduce;
 			sourceTree = "<group>";
 		};
-		14C7A0840AEB9AC4D1C27AAF9F4573A5 /* Support Files */ = {
+		23B0DB79088E8EDA6C400F21CF9C9535 /* About */ = {
 			isa = PBXGroup;
 			children = (
-				71C699F476D5C450CF788623307FBD5F /* CommonSetting.modulemap */,
-				B297C46EBAC2280D28876574DB25EF4B /* CommonSetting-dummy.m */,
-				5181CC35D12636A01A31930A9F53663C /* CommonSetting-Info.plist */,
-				55EB6566012032B377C1B42EE186BFB3 /* CommonSetting-prefix.pch */,
-				3AD1ADBB4E26743224D252BB6D76EDE0 /* CommonSetting-umbrella.h */,
-				A8B7B974E310E7679651ED6E1BD140A7 /* CommonSetting.debug.xcconfig */,
-				F30129337A6B6362868A6408DBFAF79E /* CommonSetting.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CommonSetting";
-			sourceTree = "<group>";
-		};
-		43B87776369DDCA459408166E3F8551D /* About */ = {
-			isa = PBXGroup;
-			children = (
-				97C57E5E42747960D347129431CDC9EA /* QYAboutViewController.h */,
-				16F4252E97AB6525836A0ED32D85D8EA /* QYAboutViewController.m */,
-				3A032D31DA4BC66B326270A2A0FDE869 /* QYAboutViewController.xib */,
+				D772D5A23DE46F54A61B1C472DC480CD /* QYAboutViewController.h */,
+				33FBFBCCE09B68910718335CEA6C8615 /* QYAboutViewController.m */,
 			);
 			name = About;
-			path = CommonSetting/Classes/About;
 			sourceTree = "<group>";
 		};
-		549700A7D7FD8736D1F3E1F21B5E0DA1 /* Core */ = {
+		24D3B5193FD62FF70135E565C093B3ED /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CA02CC8FAB890096DB2F0176D26FFECA /* QYBaseSettingViewController.h */,
-				440D0508B0AF2DFF4F4A6898C2BF623A /* QYBaseSettingViewController.m */,
-				7DAFD1C178667BA46BBEDDE440EC225A /* QYIntroduce.h */,
-				22DBBB73550447030E344EB14F20FD43 /* QYIntroduce.m */,
-				5FF5292EBD3E65B4EB8C14886E5DA560 /* QYSettings.h */,
-				9FB53CE85D0D1277DD80C947C385807B /* QYSettings.m */,
-				97C85F984182D7827A6FFCE8D51103DE /* QYSettingType.h */,
-				63CDE6D2602FCB05AE337E6AC09C924E /* QYUtils.h */,
-				5C4D40CC01AF60740D768A49FB3AAB95 /* QYUtils.m */,
-				79AB549554A8561B92C2EC616A075989 /* UIApplication+QYCategory.h */,
-				7365E946567FFE90D11385A368D0B229 /* UIApplication+QYCategory.m */,
+				2128A0C74C980C173718F0B23F854703 /* QYAboutViewController.xib */,
+				25A91C70198666F192F14DE02290C1F5 /* QYIntroduceCell.xib */,
+				724308C2F74E3F905F087EA0D69FF857 /* QYIntroduceViewController.xib */,
+				710DAAB323AD633CED63BAD74DFBCE8E /* QYSettingCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2CF90132A8A6A80F48984EDE57BB3271 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F67BADF06B99B0AD74FFE61742992E06 /* QYCommonSettingViewController.h */,
+				D48599E38AFC9F134360EE3EC336E837 /* QYCommonSettingViewController.m */,
+				2F009CF53CF498942F56EA6861B2916E /* QYSettingCell.h */,
+				6AA0E049A1C7AB2048AFDEABB778CBBC /* QYSettingCell.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		42BD721028A3976C54D627F430091A0D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				93D858633ECF9B6541B523716E7EC414 /* QYBaseSettingViewController.h */,
+				D92C11214869AD21498463BE73924E1A /* QYBaseSettingViewController.m */,
+				5211A9290EEA10D55BD2CFCD1EAD5B9C /* QYIntroduce.h */,
+				15C4E571E860698294D1AC8234447534 /* QYIntroduce.m */,
+				09B107CB838557010E103DB5DD997235 /* QYSettings.h */,
+				98DDCBD124A7A51751A670F0786306FB /* QYSettings.m */,
+				AD20D7F4637496954574B12EBFFB805D /* QYSettingType.h */,
+				BC786C262F2F6DB2F414AA5665FCDA6F /* QYUtils.h */,
+				10A5DE3EA4D59369C747B4E06433FEEB /* QYUtils.m */,
+				39FE8B50E698FB43CB1632F008820693 /* UIApplication+QYCategory.h */,
+				E1126FAC8F68B46CF2B6A6984A2C6C45 /* UIApplication+QYCategory.m */,
 			);
 			name = Core;
-			path = CommonSetting/Classes/Core;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -234,41 +251,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		58B1F071D078DE7236EBF7F86D23CB14 /* Introduce */ = {
+		9198F0B3AB14CEB88F77A850591AF667 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				688CDD497067D243386A3D53319395DC /* QYIntroduceCell.h */,
-				1BE3DE6FFE83F8E7E706277C32E86DC0 /* QYIntroduceCell.m */,
-				5F6CA768A7A3E9D4ACFDB9DD8021BE9E /* QYIntroduceCell.xib */,
-				C2465BA4685810ADE39A05A8177C3902 /* QYIntroduceViewController.h */,
-				3BB015E1B05D39180F6358AA918C234C /* QYIntroduceViewController.m */,
-				DD81DC49C4867ED0D8A5237ABF7B31B6 /* QYIntroduceViewController.xib */,
+				CEAB550EB722D058D0B68ED1F2C615ED /* CommonSetting */,
 			);
-			name = Introduce;
-			path = CommonSetting/Classes/Introduce;
-			sourceTree = "<group>";
-		};
-		9325F912423792F40F5789A3189920DA /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				8FECE3DF3EE9E9260ABE7F41B2178C5D /* QYCommonSettingViewController.h */,
-				F1D0C4E580309758A3231F8F26990997 /* QYCommonSettingViewController.m */,
-				C684863F2D39CDFA6DA478920F088519 /* QYSettingCell.h */,
-				A5D6B252FA6A643CF449E6B0BEA5B79A /* QYSettingCell.m */,
-				4F3DB5DF56FB2188A2801AC85EBCD9FE /* QYSettingCell.xib */,
-			);
-			name = Main;
-			path = CommonSetting/Classes/Main;
-			sourceTree = "<group>";
-		};
-		9522977B70129A280260CA876BAB5F58 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				48E5EDE4A4E2093583EA147AFB530108 /* CommonSetting.podspec */,
-				B15BA7FB4E5A990F9022547928C4BCA4 /* LICENSE */,
-				540AE5E30AD94967C50691C9C0BD1288 /* README.md */,
-			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		AB606AC2217D384A3CBBD7070E9E03D0 /* Targets Support Files */ = {
@@ -280,21 +268,39 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C409C6FD4C4013690741888B5F449143 /* Development Pods */ = {
+		B8D5A687A27F1E5FD2A9B315B7F592C8 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				0CE31F6045112CD4D70A5C9C8380ACE7 /* CommonSetting */,
+				98C8F985304D84496639570C230CBB29 /* CommonSetting.podspec */,
+				2A3486747E540DF1C500131E5E45666B /* LICENSE */,
+				C1825E0DAA0F3BF6357CDFE59900C6A0 /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CEAB550EB722D058D0B68ED1F2C615ED /* CommonSetting */ = {
+			isa = PBXGroup;
+			children = (
+				985B4CBC1172D51F921DD24DFD4E5FAC /* QYCommonSetting.h */,
+				23B0DB79088E8EDA6C400F21CF9C9535 /* About */,
+				42BD721028A3976C54D627F430091A0D /* Core */,
+				0BC2EFBC554E358DD61BED1BDCC18B07 /* Introduce */,
+				2CF90132A8A6A80F48984EDE57BB3271 /* Main */,
+				B8D5A687A27F1E5FD2A9B315B7F592C8 /* Pod */,
+				24D3B5193FD62FF70135E565C093B3ED /* Resources */,
+				EB0E7DBCE21FB3C5CEE7028D721ADF1E /* Support Files */,
+			);
+			name = CommonSetting;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				C409C6FD4C4013690741888B5F449143 /* Development Pods */,
+				9198F0B3AB14CEB88F77A850591AF667 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				E42ECDF1FC758DA899951A2AB2631334 /* Products */,
+				E56D767949CA2DB07543D41B47F456FF /* Products */,
 				AB606AC2217D384A3CBBD7070E9E03D0 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -307,14 +313,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E42ECDF1FC758DA899951A2AB2631334 /* Products */ = {
+		E56D767949CA2DB07543D41B47F456FF /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				EC346DE0456C20C62D9723239E2AB9B2 /* CommonSetting */,
+				365231572837D11BC6FAAFE5A7018CDD /* CommonSetting-CommonSettingResources */,
 				34047A50C1383CB158923A3C8437381E /* Pods-CommonSetting_Example */,
 				30F406EAD5622402898C37B3BDB2245C /* Pods-CommonSetting_Tests */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EB0E7DBCE21FB3C5CEE7028D721ADF1E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				40FBDE55C697783F79C7CF4358790F3A /* CommonSetting.modulemap */,
+				3E9E4CE0B7D43ADE6E56F92BDCAC80FA /* CommonSetting-dummy.m */,
+				ABA060F7FEC2984DB7F6C158CE5EB050 /* CommonSetting-Info.plist */,
+				8F9B0AB694ADBBF0D8362C22813CDEC4 /* CommonSetting-prefix.pch */,
+				BFCE5CC313080B490BBBCF74E443069C /* CommonSetting-umbrella.h */,
+				5CFC24CC7C67BC1DA7D44CF07B787F5E /* CommonSetting.debug.xcconfig */,
+				01D3C724078A824A576FAE80B1260423 /* CommonSetting.release.xcconfig */,
+				7679BDA30961FEB5B3730D1EB17D34B2 /* ResourceBundle-CommonSettingResources-CommonSetting-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CommonSetting";
 			sourceTree = "<group>";
 		};
 		F8CA0C4DA854F0DA1C92E13E9E29F3C8 /* Pods-CommonSetting_Example */ = {
@@ -337,31 +360,31 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3BB6EBB1FA16039C3BCA71FAFCA44234 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D108D7CA23452C0B661B8EBA4E125F6 /* CommonSetting-umbrella.h in Headers */,
-				26E81D45928C7CB0B81FDD78AA5A7E9E /* QYAboutViewController.h in Headers */,
-				002A178C212A4A09DFC996CDCA81551D /* QYBaseSettingViewController.h in Headers */,
-				660EE17B2B6EF17896D187947BCD5D20 /* QYCommonSetting.h in Headers */,
-				327FE530D4D529993BC50A4620C63D64 /* QYCommonSettingViewController.h in Headers */,
-				701257E6492EBC54D61F2F5F342F073C /* QYIntroduce.h in Headers */,
-				029FA8EB2DA36A2B3FA6B7A4CFC6F78F /* QYIntroduceCell.h in Headers */,
-				5259678C9BDDB5C4027CA02F9A443B90 /* QYIntroduceViewController.h in Headers */,
-				856F8D7FE2F7D86837407546E35F586A /* QYSettingCell.h in Headers */,
-				C966399E73DAF14CE220A33D14A92742 /* QYSettings.h in Headers */,
-				EA45E4A6CA6FC28079A25C4AEB196390 /* QYSettingType.h in Headers */,
-				96BB5ECCA3492D43E0655F66FAC9C648 /* QYUtils.h in Headers */,
-				8F584F87EA8AB819D00844CCA9415863 /* UIApplication+QYCategory.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4A162A24DA54B5B82187E8F03D86074E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F35D4994AE57E75ABF1DBF2DAC086275 /* Pods-CommonSetting_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC217E5060E88F9060B7580F483711B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E16DF6255FA4A267811040EEDD2A42 /* CommonSetting-umbrella.h in Headers */,
+				D797738F90C04C63D08E813A0538695F /* QYAboutViewController.h in Headers */,
+				C91A85B53AAAC39CDB81A63D0AB38F8D /* QYBaseSettingViewController.h in Headers */,
+				65ED1AA411DA9A090C8322036CBFF8FA /* QYCommonSetting.h in Headers */,
+				B8901EC29501CFB230A5F13E81FF956E /* QYCommonSettingViewController.h in Headers */,
+				9D0EDA359548ACA0F61821482FFDB51F /* QYIntroduce.h in Headers */,
+				DADBBE4D6F8947BEE796E7CB62831093 /* QYIntroduceCell.h in Headers */,
+				6A6CBDC9DA3AC937DA584E14B299301B /* QYIntroduceViewController.h in Headers */,
+				DD3BEBBCD55726F2CD17E1F294505592 /* QYSettingCell.h in Headers */,
+				DDDDEF73F81D9495FA93B0384F890996 /* QYSettings.h in Headers */,
+				4768509B0B8F203823088CBDD01245C9 /* QYSettingType.h in Headers */,
+				9B727398D6B6F69D07EE8A14D1EB6ACB /* QYUtils.h in Headers */,
+				AFC80D3C3E61EF6F5BE0B81FFB1E1C30 /* UIApplication+QYCategory.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,12 +411,29 @@
 			buildRules = (
 			);
 			dependencies = (
-				E246CC8F6017D133DF818C4A72C5FBA7 /* PBXTargetDependency */,
+				CD22F6149F9EB896A8992CE940FE3BCB /* PBXTargetDependency */,
 			);
 			name = "Pods-CommonSetting_Example";
 			productName = Pods_CommonSetting_Example;
 			productReference = 34047A50C1383CB158923A3C8437381E /* Pods-CommonSetting_Example */;
 			productType = "com.apple.product-type.framework";
+		};
+		17A489311C2307310BB8DE61B14D345B /* CommonSetting-CommonSettingResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42856FDBE0389870D509D3FA8DFF32F5 /* Build configuration list for PBXNativeTarget "CommonSetting-CommonSettingResources" */;
+			buildPhases = (
+				8730CF8DEE3667EDEDC46A7BD2ABBD0B /* Sources */,
+				7804C643089C395B3549CF1076272440 /* Frameworks */,
+				DC9BD68BD1E97FC26A22956E74658184 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CommonSetting-CommonSettingResources";
+			productName = CommonSettingResources;
+			productReference = 365231572837D11BC6FAAFE5A7018CDD /* CommonSetting-CommonSettingResources */;
+			productType = "com.apple.product-type.bundle";
 		};
 		92FCD64C756172AECCA87016F9DD429F /* Pods-CommonSetting_Tests */ = {
 			isa = PBXNativeTarget;
@@ -407,7 +447,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				8522E08118E22C2DD4D20498F4965442 /* PBXTargetDependency */,
+				06384EE339961A9CB8D2351604181DE9 /* PBXTargetDependency */,
 			);
 			name = "Pods-CommonSetting_Tests";
 			productName = Pods_CommonSetting_Tests;
@@ -416,16 +456,17 @@
 		};
 		99C1EB3095DF48BBD73B74A46057B324 /* CommonSetting */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B5F125E0731F8ED9F5364F0D1BF162B /* Build configuration list for PBXNativeTarget "CommonSetting" */;
+			buildConfigurationList = 8CE8E4CBD2525D7252BB3B63A3B57162 /* Build configuration list for PBXNativeTarget "CommonSetting" */;
 			buildPhases = (
-				3BB6EBB1FA16039C3BCA71FAFCA44234 /* Headers */,
-				8399B69A7D19FF1B6482EB4014102AAB /* Sources */,
-				8A901B8000D8AA32AED250E5AD3C2E4A /* Frameworks */,
-				F09BAD2BA4986DA2CC5191CED6F2ACC9 /* Resources */,
+				6DC217E5060E88F9060B7580F483711B /* Headers */,
+				668F468917E649C000B0AD43F64D387A /* Sources */,
+				459C74A748EA644E73898D3FC7A6848E /* Frameworks */,
+				734F7B9F8ABF76B54FC69698F736C896 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D5DC08BE0EC5D3E90A8A148977C27848 /* PBXTargetDependency */,
 			);
 			name = CommonSetting;
 			productName = CommonSetting;
@@ -450,11 +491,12 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = E42ECDF1FC758DA899951A2AB2631334 /* Products */;
+			productRefGroup = E56D767949CA2DB07543D41B47F456FF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				99C1EB3095DF48BBD73B74A46057B324 /* CommonSetting */,
+				17A489311C2307310BB8DE61B14D345B /* CommonSetting-CommonSettingResources */,
 				1034BD4CBA8750156EE214C56E5EE8E1 /* Pods-CommonSetting_Example */,
 				92FCD64C756172AECCA87016F9DD429F /* Pods-CommonSetting_Tests */,
 			);
@@ -476,10 +518,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F09BAD2BA4986DA2CC5191CED6F2ACC9 /* Resources */ = {
+		734F7B9F8ABF76B54FC69698F736C896 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA8888D37125C30679ECE0F658E5EFFC /* CommonSetting-CommonSettingResources in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9BD68BD1E97FC26A22956E74658184 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70EC4A3605654E0A2B3B2DCCE050B788 /* QYAboutViewController.xib in Resources */,
+				005302FF86313742865ED4F1F950B73B /* QYIntroduceCell.xib in Resources */,
+				B7D24962CD3788977B531FA8373E04EF /* QYIntroduceViewController.xib in Resources */,
+				18BBC4EE2AD977BB05839C259300218F /* QYSettingCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,25 +548,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8399B69A7D19FF1B6482EB4014102AAB /* Sources */ = {
+		668F468917E649C000B0AD43F64D387A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF74F83219BC4D666910939F8690536A /* CommonSetting-dummy.m in Sources */,
-				A7E52A849BC327B20AD2174E887604E0 /* QYAboutViewController.m in Sources */,
-				46AE06AE3A875395E717CF0391861395 /* QYAboutViewController.xib in Sources */,
-				0C251C65F7045E3D2D2C813DB03DEC34 /* QYBaseSettingViewController.m in Sources */,
-				05F24E11E9A3D9F9F5CD4B95FA5FD09B /* QYCommonSettingViewController.m in Sources */,
-				3DC4A8FA31C1C133598057C2151C2885 /* QYIntroduce.m in Sources */,
-				8778BD3AFBA7354B4EAD3A1299A5046C /* QYIntroduceCell.m in Sources */,
-				A3C435BFA22A45B9EE4C0926E70FB509 /* QYIntroduceCell.xib in Sources */,
-				AF2D30425875C71738F14E27A85221D9 /* QYIntroduceViewController.m in Sources */,
-				4528F278AF9F5FFDCC556D1ABBBFDCAA /* QYIntroduceViewController.xib in Sources */,
-				19EA6FA1ECB1FD2B8A2B586539D1CA23 /* QYSettingCell.m in Sources */,
-				BF702D396726AA60F92C92A43F91D75E /* QYSettingCell.xib in Sources */,
-				4BF71BB225FA178AE44B2BD2E34E57D7 /* QYSettings.m in Sources */,
-				CDA04A76DFAA33FA2B66F3876D89671C /* QYUtils.m in Sources */,
-				738A894CF914637425E688C84C0932DA /* UIApplication+QYCategory.m in Sources */,
+				BE000344CD697948F3A3F44A0D0C4756 /* CommonSetting-dummy.m in Sources */,
+				2D3D7CCEE069F5BE28DA1BFCFF41F3F9 /* QYAboutViewController.m in Sources */,
+				EDCB8AC7B4B79E256CBA91C2D7AC1EB2 /* QYBaseSettingViewController.m in Sources */,
+				2D41FAD6DB41A5643EADF3D805E38EAA /* QYCommonSettingViewController.m in Sources */,
+				3C3C9203B1B22E470A0C8306FC90C39C /* QYIntroduce.m in Sources */,
+				EAB288C9B7AFFF5627454450C78C4490 /* QYIntroduceCell.m in Sources */,
+				5EC04F663B0ADFF80F983ADDEB08C701 /* QYIntroduceViewController.m in Sources */,
+				1E9C272E98CC656317994BF636498F8D /* QYSettingCell.m in Sources */,
+				F8F7E4C78A2A5B16ADAB019690BC246F /* QYSettings.m in Sources */,
+				6BC7F3C5EE0FB79F1831EAD5E1EF0277 /* QYUtils.m in Sources */,
+				8E94E6CFD85D2C1509DF87DA6ED4B955 /* UIApplication+QYCategory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8730CF8DEE3667EDEDC46A7BD2ABBD0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,21 +584,43 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8522E08118E22C2DD4D20498F4965442 /* PBXTargetDependency */ = {
+		06384EE339961A9CB8D2351604181DE9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-CommonSetting_Example";
 			target = 1034BD4CBA8750156EE214C56E5EE8E1 /* Pods-CommonSetting_Example */;
-			targetProxy = 6AFFD3C99D2CF4225BB99E462928DE6C /* PBXContainerItemProxy */;
+			targetProxy = FA1BB0301B97BCD395E1CE1A8DB2373B /* PBXContainerItemProxy */;
 		};
-		E246CC8F6017D133DF818C4A72C5FBA7 /* PBXTargetDependency */ = {
+		CD22F6149F9EB896A8992CE940FE3BCB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CommonSetting;
 			target = 99C1EB3095DF48BBD73B74A46057B324 /* CommonSetting */;
-			targetProxy = 5875B3660ED5D29D516652EBA3C5F7B7 /* PBXContainerItemProxy */;
+			targetProxy = 51804526856010380FFB39AB5F730C9F /* PBXContainerItemProxy */;
+		};
+		D5DC08BE0EC5D3E90A8A148977C27848 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CommonSetting-CommonSettingResources";
+			target = 17A489311C2307310BB8DE61B14D345B /* CommonSetting-CommonSettingResources */;
+			targetProxy = 3E05F9F3E05394CF3B6BD8534CC92433 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		22DBCDEC85CC37193C56A8AC49F1F58D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CFC24CC7C67BC1DA7D44CF07B787F5E /* CommonSetting.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CommonSetting";
+				IBSC_MODULE = CommonSetting;
+				INFOPLIST_FILE = "Target Support Files/CommonSetting/ResourceBundle-CommonSettingResources-CommonSetting-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = CommonSettingResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -608,6 +687,36 @@
 			};
 			name = Debug;
 		};
+		42AD0EB32303ABB56ED1A43F79236A10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CFC24CC7C67BC1DA7D44CF07B787F5E /* CommonSetting.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CommonSetting/CommonSetting-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CommonSetting/CommonSetting-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CommonSetting/CommonSetting.modulemap";
+				PRODUCT_MODULE_NAME = CommonSetting;
+				PRODUCT_NAME = CommonSetting;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		4EC4D443960ADC898824EBB32C5D01E3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E1FA0D5D5BE6F449DD6A3B7241E677FE /* Pods-CommonSetting_Tests.release.xcconfig */;
@@ -634,37 +743,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5B70BAD3580364BD9E406598C810501D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F30129337A6B6362868A6408DBFAF79E /* CommonSetting.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CommonSetting/CommonSetting-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CommonSetting/CommonSetting-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CommonSetting/CommonSetting.modulemap";
-				PRODUCT_MODULE_NAME = CommonSetting;
-				PRODUCT_NAME = CommonSetting;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -704,9 +782,25 @@
 			};
 			name = Debug;
 		};
-		96C014777AF83BA279288B90D60DFDE5 /* Debug */ = {
+		8D2F75092DC2F8BBC027C65F28EBBEAA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8B7B974E310E7679651ED6E1BD140A7 /* CommonSetting.debug.xcconfig */;
+			baseConfigurationReference = 01D3C724078A824A576FAE80B1260423 /* CommonSetting.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CommonSetting";
+				IBSC_MODULE = CommonSetting;
+				INFOPLIST_FILE = "Target Support Files/CommonSetting/ResourceBundle-CommonSettingResources-CommonSetting-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = CommonSettingResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		AF2A3105DFA6E0E5972CDDDDE4AF7147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01D3C724078A824A576FAE80B1260423 /* CommonSetting.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -729,10 +823,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		B64B81CEB26F392C1F1C1F3A36D685DD /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -864,6 +959,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		42856FDBE0389870D509D3FA8DFF32F5 /* Build configuration list for PBXNativeTarget "CommonSetting-CommonSettingResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22DBCDEC85CC37193C56A8AC49F1F58D /* Debug */,
+				8D2F75092DC2F8BBC027C65F28EBBEAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -873,20 +977,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		8CE8E4CBD2525D7252BB3B63A3B57162 /* Build configuration list for PBXNativeTarget "CommonSetting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42AD0EB32303ABB56ED1A43F79236A10 /* Debug */,
+				AF2A3105DFA6E0E5972CDDDDE4AF7147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		983081DF17A73EE4E60B6BFC53B0F68D /* Build configuration list for PBXNativeTarget "Pods-CommonSetting_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				66CBD3A5CD22576BDF1E7FF65E2990BC /* Debug */,
 				4EC4D443960ADC898824EBB32C5D01E3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9B5F125E0731F8ED9F5364F0D1BF162B /* Build configuration list for PBXNativeTarget "CommonSetting" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				96C014777AF83BA279288B90D60DFDE5 /* Debug */,
-				5B70BAD3580364BD9E406598C810501D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

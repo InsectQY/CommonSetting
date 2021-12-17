@@ -198,7 +198,7 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
         _tableView.rowHeight = [QYSettingCell height];
         _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
         UINib *nib = [UINib nibWithNibName:@"QYSettingCell"
-                                    bundle:[NSBundle bundleForClass:[QYCommonSettingViewController class]]];
+                                    bundle:[QYUtils getBundle]];
         [_tableView registerNib:nib
          forCellReuseIdentifier:kReuseIdentifier];
     }
