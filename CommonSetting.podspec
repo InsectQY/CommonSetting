@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CommonSetting'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = '通用的设置页面封装'
 
   s.description      = <<-DESC

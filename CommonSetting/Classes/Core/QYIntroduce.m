@@ -27,8 +27,8 @@
     self = [super init];
     if (self) {
         self.title = [dictionary[@"title"] class] == NSNull.class ? @"" : dictionary[@"title"];
-        self.title = [dictionary[@"subTitle"] class] == NSNull.class ? @"" : dictionary[@"subTitle"];
-        self.title = [dictionary[@"imageName"] class] == NSNull.class ? @"" : dictionary[@"imageName"];
+        self.subTitle = [dictionary[@"subTitle"] class] == NSNull.class ? @"" : dictionary[@"subTitle"];
+        self.imageName = [dictionary[@"imageName"] class] == NSNull.class ? @"" : dictionary[@"imageName"];
     }
 
     return self;
